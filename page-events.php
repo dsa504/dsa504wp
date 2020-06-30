@@ -17,7 +17,7 @@
 							<div id="dsa-cal-app">
 							</div>
 							<!-- new react calendar -->
-							<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/library/js/main.a60ae860.js"></script>
+							<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/library/js/main.376b83fd.chunk.js"></script>
 							<!-- new react calendar css fixes -->
 							<style>
 							#dsa-cal-app a {
