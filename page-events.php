@@ -14,7 +14,7 @@
 
 						<div id="main" class="m-all t-2of3 d-5of7 cf" role="main">
 							<div class="intro-section-header">Upcoming Events</div>
-<iframe src="https://calendar.google.com/calendar/embed?src=vv0uj9uhqrl6j6m0pugu90uo6c%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=vv0uj9uhqrl6j6m0pugu90uo6c%40group.calendar.google.com&ctz=America%2FChicago&amp;mode=WEEK" style="border: 0" width="600" height="600" frameborder="0" scrolling="no"></iframe>
 							<div id="dsa-cal-app">
 							</div>
 							<!-- new react calendar -->
