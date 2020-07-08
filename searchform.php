@@ -3,7 +3,7 @@
 	method="get"
 	id="searchform"
 	class="searchform"
-	action="https://staging1.dsaneworleans.org/"
+	action="/"
 >
 	<h3>Search the website:</h3>
 	<div class="search-container">
