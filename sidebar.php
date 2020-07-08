@@ -1,6 +1,7 @@
 <aside id="sidebar">
   <?php $parentID = get_queried_object()->ID; // have to do this because the wp loop context gets wonky ?>
 
+	<?php get_search_form(); ?>
   <?php include("addons/cta-box.php"); ?>
 
   <?php
