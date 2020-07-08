@@ -75,6 +75,28 @@
 			.has-vivid-red-background-color:active {
 				color: #fff;
 			}
+
+		.searchform .search-container {
+			display: flex;
+			align-items: center;
+			margin-bottom: 35px;
+		}
+
+		.searchform h3 {
+			margin-bottom: 12px;
+		}
+
+		.searchform .search-container input[type="text"] {
+			height: 45px;
+			margin-top: 0;
+			margin-right: 10px;
+			border: 1px solid #999 !important;
+			border-radius: 5px !important;
+		}
+
+		.searchform .search-container input[type="submit"] {
+			margin-top: 0;
+		}
 		</style>
 	</head>
 
