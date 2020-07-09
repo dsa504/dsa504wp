@@ -97,6 +97,18 @@
 		.searchform .search-container input[type="submit"] {
 			margin-top: 0;
 		}
+
+		ol {
+			list-style-type: decimal;
+		}
+
+		ul {
+			list-style-type: disc;
+		}
+
+		td {
+			border: 1px solid black;
+		}
 		</style>
 	</head>
 
