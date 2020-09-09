@@ -13,6 +13,9 @@
     #dsa-cal-app a:hover {
       text-decoration:underline;
     }
+    #dsa-cal-app p[itemprop="description"]{
+      overflow-wrap: break-word;
+    }
     @media only screen and (max-width: 800px) {
       #dsa-cal-app {
         text-align: left; 
