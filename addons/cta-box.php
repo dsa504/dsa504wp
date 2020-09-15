@@ -30,11 +30,11 @@
 		  <option value="member-track">I'm interested in getting involved!</option>
 		  <option value="updates-track">Just send me DSA504 updates.</option>
 		</select>
-
+	<div class="g-recaptcha" data-sitekey="6LdjS8wZAAAAAGSqtuxV7bs9dvFpudG7uOvuJEW6"></div>
         <input type="submit" value="Submit" class="submit"/>
 		</form>
 </div>
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
 jQuery("#contact").submit(function(e){
 	
