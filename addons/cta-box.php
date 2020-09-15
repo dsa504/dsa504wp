@@ -46,6 +46,8 @@ jQuery("#contact").submit(function(e){
 	action: 'captchaVerify',
         captcha: grecaptcha.getResponse(),
     }, function(response) {
+	console.log(response);
+
 	if (response.success === true) {
 	    if(jQuery("#contact")[0].checkValidity()){
 		    jQuery.post(
