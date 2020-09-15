@@ -67,6 +67,7 @@ function captchaVerify() {
   }
 
   echo $ajax_res;
+  die();
 }
 
 add_action( 'wp_ajax_signUp', 'signUp' );
