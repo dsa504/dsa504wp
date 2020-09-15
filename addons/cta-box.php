@@ -46,9 +46,7 @@ jQuery("#contact").submit(function(e){
 	action: 'captchaVerify',
         captcha: grecaptcha.getResponse(),
     }, function(response) {
-	console.log(response);
-
-	if (response.success === true) {
+	if (response.trim() === "success") {
 	    if(jQuery("#contact")[0].checkValidity()){
 		    jQuery.post(
 			    '<?php echo admin_url('admin-ajax.php'); ?>', 

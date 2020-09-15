@@ -61,16 +61,12 @@ function captchaVerify() {
   $res = json_decode($verification_response);
 
   if ($res->success==true) {
-	  $ajax_res = [
-		  'success' => true
-	  ];
+	  $ajax_res = "success";
   } else {
-	  $ajax_res = [
-		  'success' => false
-	  ];
+	  $ajax_res = "failure";
   }
 
-  echo json_encode($ajax_res);
+  echo $ajax_res;
 }
 
 add_action( 'wp_ajax_signUp', 'signUp' );
