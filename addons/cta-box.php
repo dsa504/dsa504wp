@@ -42,7 +42,7 @@ jQuery("#contact").submit(function(e){
     if(jQuery("#mmm_honey").val()!=""){return};
 
     // recaptcha v2 check
-    jQuery.post('<?php echo admin_url('admin-ajax.php')', {
+    jQuery.post('<?php echo admin_url('admin-ajax.php') ?>', {
 	action: 'captchaVerify',
         captcha: grecaptcha.getResponse(),
     }, function(response) {
