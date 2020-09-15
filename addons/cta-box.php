@@ -29,8 +29,7 @@
 	    <option value="member-track">I'm interested in getting involved!</option>
 	    <option value="updates-track">Just send me DSA504 updates.</option>
 	</select>
-	<br />
-	<div class="g-recaptcha" data-sitekey="6LdjS8wZAAAAAGSqtuxV7bs9dvFpudG7uOvuJEW6"></div>
+	<div class="g-recaptcha" data-sitekey="6LdjS8wZAAAAAGSqtuxV7bs9dvFpudG7uOvuJEW6" style="margin-top:20px;"></div>
         <input type="submit" value="Submit" class="submit"/>
     </form>
 </div>
