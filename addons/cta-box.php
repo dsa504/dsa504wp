@@ -16,8 +16,10 @@
 	    
     <b>Get Involved</b>
     <p> 
-    Have questions about <?php echo $context_text; ?>, or want to join up? Drop us a line and we'll get in touch:
+    Have questions about <?php echo $context_text; ?>, or want to join up? 
+	    Drop us a line and we'll get in touch: <a href='mailto:hello@dsaneworleans.org'>hello@dsaneworleans.org</a>! 
     </p>
+    <!--
     <form id="contact">
         <input type="text" id="firstname" placeholder="First Name" required/>
 	<input type="text" id="lastname" placeholder="Last Name" required/>
@@ -32,7 +34,9 @@
 	<div class="g-recaptcha" data-sitekey="6LdjS8wZAAAAAGSqtuxV7bs9dvFpudG7uOvuJEW6" style="margin-top:20px;"></div>
         <input type="submit" value="Submit" class="submit"/>
     </form>
+    -->
 </div>
+<!-- 
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
 jQuery("#contact").submit(function(e){
@@ -81,3 +85,4 @@ jQuery("#contact").submit(function(e){
     });
 });
 </script>
+-->
