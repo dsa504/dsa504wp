@@ -3,6 +3,10 @@
 	#can-form-area-sign-up-for-dsa-new-orleans-updates h2 {
 	    display: none;
 	}
+
+	#can-form-area-sign-up-for-dsa-new-orleans-updates h4 {
+	    display: none;
+	}
     </style>
     <?php 
     if(get_post_type($parentID) == "committee"){
@@ -18,9 +22,9 @@
 
     ?>
     <b>Get Involved</b>
-    <p> 
+    <p>
     Have questions about <?php echo $context_text; ?>, or want to join up? 
-	    Drop us a line and we'll get in touch: <a href='mailto:hello@dsaneworleans.org'>hello@dsaneworleans.org</a>! 
+	    Fill out the form below or drop us a line and we'll get in touch: <a href='mailto:hello@dsaneworleans.org'>hello@dsaneworleans.org</a>!
     </p>
     <?php
 	echo do_shortcode("[actionnetwork id=3]");
