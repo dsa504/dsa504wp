@@ -14,7 +14,7 @@
     ?>
 	    
 	    
-    <b>Get Involved</b>
+    <b>Get Involved!</b>
     <p> 
     Have questions about <?php echo $context_text; ?>, or want to join up? 
 	    Drop us a line and we'll get in touch: <a href='mailto:hello@dsaneworleans.org'>hello@dsaneworleans.org</a>! 
