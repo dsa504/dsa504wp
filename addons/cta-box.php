@@ -19,6 +19,10 @@
 	#action_info {
 	    display: none;
 	}
+
+	#can_thank_you {
+	    background-color: #f01d25;
+	}
     </style>
     <?php 
     if(get_post_type($parentID) == "committee"){
