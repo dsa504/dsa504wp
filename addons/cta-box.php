@@ -35,6 +35,9 @@
         <input type="submit" value="Submit" class="submit"/>
     </form>
     -->
+    <?php
+	do_shortcode("[actionnetwork id=3]");
+    ?>
 </div>
 <!-- 
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
