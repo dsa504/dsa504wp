@@ -21,7 +21,7 @@
 	}
 
 	#can_thank_you {
-	    background-color: #f01d25;
+	    background-color: #f01d25 !important;
 	}
     </style>
     <?php 
