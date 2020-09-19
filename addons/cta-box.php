@@ -7,6 +7,18 @@
 	#can-form-area-sign-up-for-dsa-new-orleans-updates h4 {
 	    display: none;
 	}
+
+	#can-form-area-sign-up-for-dsa-new-orleans-updates input[name="commit"] {
+	    margin-top: 15px;
+	}
+
+	#can-form-area-sign-up-for-dsa-new-orleans-updates #form-phone {
+	    margin-bottom: 15px;
+	}
+
+	#action_info {
+	    display: none;
+	}
     </style>
     <?php 
     if(get_post_type($parentID) == "committee"){
