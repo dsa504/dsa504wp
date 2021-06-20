@@ -11,6 +11,9 @@ function dsa504_boomshakalaka() {
   // enqueue base scripts and styles
   add_action( 'wp_enqueue_scripts', 'dsa504_enqueue', 999 );
 
+  // set graphql-jwt token
+  define( 'GRAPHQL_JWT_AUTH_SECRET_KEY', 'T,e=nTIX~`qNWg.WRu#XBS9|$.KxCZzXr$1abh!mlC{UZnv(MI8gEn8/^Q|c|yKA' );
+
 
 } 
 // let's get this party started
