@@ -14,6 +14,8 @@ function dsa504_boomshakalaka() {
   // set graphql-jwt token
   define( 'GRAPHQL_JWT_AUTH_SECRET_KEY', 'T,e=nTIX~`qNWg.WRu#XBS9|$.KxCZzXr$1abh!mlC{UZnv(MI8gEn8/^Q|c|yKA' );
 
+  // featured image support
+  add_theme_support( 'post-thumbnails' );
 
 } 
 // let's get this party started
