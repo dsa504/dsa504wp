@@ -74,7 +74,9 @@ function dsa504_enqueue() {
 
 		//adding scripts file in the footer
 		wp_register_script( 'dsa504-js', get_stylesheet_directory_uri() . '/library/js/scripts.js', array( 'jquery' ), '', true );
-		
+
+		// disable xmlrpc
+		add_filter( 'xmlrpc_enabled', '__return_false' );
 
 		// enqueue styles and scripts
 		wp_enqueue_style( 'dsa504-stylesheet' );
